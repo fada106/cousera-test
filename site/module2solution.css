@@ -1,0 +1,208 @@
+/*p{
+width: 25%
+	border: 3px solid;
+	font-family: Bahnschrift;
+	position: relative;
+padding-left: 
+}*/
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.title{
+	text-align: center;
+	margin-top: 100px;
+	font-family: Bahnschrift;
+}
+.container{
+	width: 31%;	
+	padding:10px;
+	margin: 0px;
+	border: 3px solid;
+	background-color: gray;
+	float:left;
+	padding-right: 15px;
+	position: relative;
+}
+
+@media screen and (min-width: 768px){
+	.container{
+		width: 45%;	
+		}
+	}
+@media screen and (min-width: 992px){
+	.container{
+		width: 31%;	
+		padding:10px;
+		margin: 0px;
+		border: 3px solid;
+		background-color: gray;
+		float:left;
+		padding-right: 15px;
+		position: relative;	
+		}
+	}
+
+@media screen and (max-width: 767px){
+		.container{
+			width: 80%;	
+			padding:10px;
+			margin-bottom: 20px;
+			border: 3px solid;
+			background-color: gray;
+			float:left;
+			padding-right: 15px;
+			position: relative;	
+			}
+		}
+
+
+.Beef{
+	width: 31%;	
+	padding:10px;
+	margin: 0px;
+	border: 3px solid;
+	background-color: gray;
+	float: left;
+	/*margin-left: 40px;*/
+	margin-right: 30px;	
+	position: relative;
+	}
+	
+	@media screen and (min-width: 768px){
+		.Beef{
+			width: 45%;	
+			margin-left: 40px;
+			}
+		}
+
+	@media screen and (min-width: 992px){
+		.Beef{
+			width: 31%;	
+			padding:10px;
+			margin: 0px;
+			border: 3px solid;
+			background-color: gray;
+			float: left;
+			margin-left: 40px;
+			margin-right: 30px;	
+			position: relative;
+			}
+		}
+
+	@media screen and (max-width: 767px){
+			.Beef{
+				width: 80%;	
+				padding:10px;
+				margin-bottom: 20px;
+				border: 3px solid;
+				background-color: gray;
+				float:left;
+				padding-right: 15px;
+				position: relative;	
+				}
+			}
+
+
+.Sushi{
+	width: 31%;	
+	padding:10px 0px 10px 10px;
+	margin: 0px;
+	border: 3px solid;
+	background-color: gray;
+	float:left;
+	padding-left: 15px;
+	position: relative;
+	}
+
+	@media screen and (max-width: 767px){
+			.Sushi{
+				width: 80%;	
+				padding:10px;
+				margin: 0px;
+				border: 3px solid;
+				background-color: gray;
+				float:left;
+				padding-right: 15px;
+				position: relative;	
+				}
+			}
+
+
+	@media screen and (min-width: 768px){
+		.Sushi{
+			width: 94%;
+			margin-top: 20px;	
+			}
+		.tag3{
+			position: relative;
+			left: 90%;
+			}
+		}
+	@media screen and (min-width: 992px){
+		.Sushi{
+			width: 31%;	
+			padding:10px 0px 10px 10px;
+			margin: 0px;
+			border: 3px solid;
+			background-color: gray;
+			float:left;
+			padding-left: 15px;
+			position: relative;
+			}
+		}
+
+
+
+.Menu{
+	padding-left: 30px;
+	margin-top: 70px;
+	font-family: Bahnschrift;
+}
+
+.tag1{
+	position: relative;
+	left: 88%;
+	border: 2px solid black;
+	width:70px;
+	top:-12px;
+	background-color: orange;
+	padding: 3px;
+}
+
+
+.tag2{
+	position: relative;
+	left: 87%;
+	border: 2px solid black;
+	width:70px;
+	top:-12px;
+	background-color:darkred;
+	padding: 3px;
+	/*padding-left: 10px;*/
+	color: white;
+
+
+}
+
+.tag3{
+	position: relative;
+	left: 85%;
+	border: 2px solid;
+	width:70px;
+	top:-12px;
+	background-color:yellow;
+	padding: 2px;
+	padding-left:12px
+}
+@media(max-width:992px) {
+  .menu {
+    width:100%
+}
+}
+
+/*992px and above for Desktop*/
+/*768px and 991px for tablet*/
+/*equal to or less than 767px for mobile*/
